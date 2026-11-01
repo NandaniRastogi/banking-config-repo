@@ -8,7 +8,7 @@ spring:
   datasource:
     # The standard JDBC connection URL. Replace 'localhost:5432' with your host and 'mydb' with your database name.
     url: jdbc:postgresql://localhost:5432/auth_db
-    username: root
+    username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
   
