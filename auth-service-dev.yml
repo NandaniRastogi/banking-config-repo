@@ -1,10 +1,9 @@
 spring:
   application:
     name: auth-service
-    
 
   # ==========================================
-  # POSTGRESQL DATA SOURCE CONFIGURATION
+  # MAIL CONFIGURATION
   # ==========================================
   mail:
     host: smtp.gmail.com
@@ -16,7 +15,11 @@ spring:
         smtp:
           auth: true
           starttls:
-          enable: true
+            enable: true
+
+  # ==========================================
+  # POSTGRESQL DATA SOURCE CONFIGURATION
+  # ==========================================
   datasource:
     url: jdbc:postgresql://localhost:5432/auth_db
     username: postgres
@@ -43,9 +46,15 @@ spring:
     baseline-on-migrate: true
     locations: classpath:/db/migration
 
+# ==========================================
+# SERVER CONFIGURATION
+# ==========================================
 server:
   port: 9000
 
+# ==========================================
+# EUREKA CLIENT CONFIGURATION
+# ==========================================
 eureka:
   client:
     service-url:
