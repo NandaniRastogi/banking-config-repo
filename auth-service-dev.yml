@@ -1,10 +1,22 @@
 spring:
   application:
     name: auth-service
+    
 
   # ==========================================
   # POSTGRESQL DATA SOURCE CONFIGURATION
   # ==========================================
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: your-email@gmail.com
+    password: your-app-password-without-spaces
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+          enable: true
   datasource:
     url: jdbc:postgresql://localhost:5432/auth_db
     username: postgres
