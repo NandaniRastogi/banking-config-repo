@@ -1,12 +1,13 @@
+
 spring:
   application:
     name: auth-service
-    
+
   data:
     redis:
       host: localhost
       port: 6379
-  
+
   # ==========================================
   # MAIL CONFIGURATION
   # ==========================================
@@ -65,9 +66,8 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
-
 twilio:
-  account-sid: ${TWILIO_ACCOUNT_SID}
-  auth-token: ${TWILIO_AUTH_TOKEN}
-  phone-number: ${TWILIO_PHONE_NUMBER}
+  account-sid: AC254d139e5525a6dacf6d2a40d14efa8a
+  auth-token: 37bd64e0d920cf3c13bf67e75242e6cd
+  phone-number: +17372508034
 
