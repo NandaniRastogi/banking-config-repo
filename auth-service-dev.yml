@@ -13,8 +13,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: your-email@gmail.com
-    password: your-app-password-without-spaces
+    username: nandanirastogi44@gmail.com
+    password: jjhf ztop wsgu bvxq
     properties:
       mail:
         smtp:
@@ -36,7 +36,7 @@ spring:
   # ==========================================
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: validate
     show-sql: true
     properties:
       hibernate:
