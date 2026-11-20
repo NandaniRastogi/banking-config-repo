@@ -52,6 +52,14 @@ spring:
     baseline-on-migrate: true
     locations: classpath:/db/migration
 
+  # ==========================================
+  # OAUTH2 AUTHORIZATION SERVER
+  # ==========================================
+  security:
+    oauth2:
+      authorizationserver:
+        issuer: http://localhost:9000
+
 # ==========================================
 # SERVER CONFIGURATION
 # ==========================================
@@ -70,4 +78,5 @@ twilio:
   account-sid: AC254d139e5525a6dacf6d2a40d14efa8a
   auth-token: 37bd64e0d920cf3c13bf67e75242e6cd
   phone-number: +17372508034
+
 
