@@ -73,10 +73,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-
-twilio:
-  account-sid: AC254d139e5525a6dacf6d2a40d14efa8a
-  auth-token: f24cad4464a3470eab687147e4c71dcb
-  phone-number: +17372508034
-
-
